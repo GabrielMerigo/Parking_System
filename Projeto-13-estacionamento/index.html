@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Estacionamento JS</title>
+</head>
+<body>
+    <form id="form"style="margin-top: 22px; background-color: #ccc; border-radius: 8px;" class="container-md padding-gb">
+        <h2 style="display: inline;">Estacionamento JS</h2><span style="margin-left: 12px;">Por Gabriel Merigo</span>
+        <div class="mb-3">
+            <label style="font-weight: bold;font-size: 17px; margin-top: 18px;" for="formGroupExampleInput" class="form-label">Modelo de Veículo</label>
+            <input id="modeloCarro" type="text" class="form-control model" id="formGroupExampleInput" placeholder="">
+        </div>
+        <div class="Placa do Veículo">
+            <label style="font-weight: bold;font-size: 17px; margin-top: 18px;" for="formGroupExampleInput" class="form-label">Placa do Veículo</label>
+            <input maxlength="7" id="placaVeiculo" type="text" class="form-control placa" id="formGroupExampleInput" placeholder="">
+        </div>
+        <button id="btn" type="button" class="btn btn-primary margin-top">Adicionar</button>
+    </form>
+    <div class="container-md margin-top">
+    <table class=" table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Modelo</th>
+            <th scope="col">Placa</th>
+            <th scope="col">Entrada</th>
+            <th scope="col">Saída</th>
+          </tr>
+        </thead>
+        <tbody id="resultados">          
+        </tbody>
+      </table>
+    </div>        
+        <script src="scripts.js"></script>
+</body>
+</html> 

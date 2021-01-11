@@ -1,2 +1,2 @@
 # Parking_System
-Here I made a basic parking system with javascript.
+Here i made basic parcking system with javascript.
